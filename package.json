@@ -1,0 +1,37 @@
+{
+  "name": "warning-teacher",
+  "scripts": {
+    "dev": "tauri dev",
+    "tauri": "tauri",
+    "lint": "next lint src-next",
+    "next": "next src-next",
+    "clippy": "cargo clippy --manifest-path ./src-tauri/Cargo.toml",
+    "next-build": "next build src-next",
+    "next-export": "next export src-next -o dist"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "@types/socket.io-client": "^3.0.0",
+    "@types/styled-components": "^5.1.26",
+    "bufferutil": "^4.0.7",
+    "file-loader": "^6.2.0",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "sass": "^1.60.0",
+    "socket.io-client": "^4.6.1",
+    "styled-components": "^5.3.9",
+    "styled-reset": "^4.4.5",
+    "sweetalert2": "^11.7.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/node": "^18.15.10",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "typescript": "^5.0.2"
+  }
+}
